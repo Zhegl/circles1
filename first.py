@@ -17,7 +17,7 @@ class MyWidget(QMainWindow):
     def run(self):
         self.test = True
         self.update()
-        # Имя элемента совпадает с objectName в QTDesigner
+        # Имя элемента совпадает с objectNae в QTDesigner
 
     def paintEvent(self, event):
         if self.test:
